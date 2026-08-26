@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  #mobile_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.474) 0px 2px 8px 0px;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    z-index: 30;
+    background-color: #fff;
+  }
+
+  #search form .wrapper {
+    width: 100%;
+    position: relative;
+  }
+
+  /* HERO */
+  .next_arr,
+  .prev_arr {
+    display: none;
+  }
+  #hero {
+    text-align: center;
+  }
+  #hero h1 {
+    font-size: 40px;
+  }
+  #hero h5 {
+    font-size: 18px;
+  }
+  #hero .slide {
+    height: 90vh !important;
+  }
+  .slick-dots {
+    bottom: 35px;
+  }
+}
