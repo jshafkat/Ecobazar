@@ -31,3 +31,9 @@ $(document).ready(function () {
         autoplaySpeed: 2500,
     });
 });
+
+$(document).ready(function () {
+
+            $('.category-button').categoryFilter();
+
+        });

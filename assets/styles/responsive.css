@@ -72,3 +72,20 @@
     .feature-content p {
         font-size: 9px;
     }
+
+
+    .products-heading h2 {
+        font-size: 23px;
+    }
+
+    .product-filter {
+        gap: 13px;
+    }
+
+    .product-filter span {
+        display: none;
+    }
+
+    .product-image {
+        height: 230px;
+    }
