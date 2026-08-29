@@ -89,3 +89,11 @@
     .product-image {
         height: 230px;
     }
+
+    .promo-section {
+        padding: 30px 15px;
+    }
+
+    .promo-card {
+        height: 210px;
+    }

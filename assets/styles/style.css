@@ -1168,3 +1168,269 @@ header .second_part select {
 }
 
 
+/* =================================
+   PROMO SECTION
+================================= */
+
+.promo-section {
+    padding: 35px 20px;
+    background: #fff;
+}
+
+
+/* =================================
+   PROMO CARD
+================================= */
+
+.promo-card {
+    position: relative;
+
+    width: 100%;
+    height: 205px;
+
+    overflow: hidden;
+
+    border-radius: 6px;
+
+    background: #eee;
+}
+
+
+/* =================================
+   BANNER IMAGE
+================================= */
+
+.promo-card > img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+
+/* Image hover animation */
+
+.promo-card:hover > img {
+    transform: scale(1.04);
+}
+
+
+/* =================================
+   CONTENT
+================================= */
+
+.promo-content {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+/* =================================
+   MILK BANNER
+================================= */
+
+.milk-content {
+    padding-left: 25px;
+
+    color: #fff;
+}
+
+
+/* Milk heading */
+
+.milk-content h2 {
+    margin: 0 0 10px;
+
+    color: #fff;
+
+    font-size: 27px;
+    line-height: 1.15;
+
+    font-weight: 700;
+}
+
+
+/* Milk description */
+
+.milk-content p {
+    margin: 0 0 16px;
+
+    color: #fff;
+
+    font-size: 12px;
+}
+
+
+.milk-content p strong {
+    font-size: 15px;
+}
+
+
+/* =================================
+   DRINK BANNER
+================================= */
+
+.drink-content {
+    /*
+       The original design places
+       the text on the right side.
+    */
+
+    padding-left: 57%;
+
+    color: #003b0b;
+}
+
+
+/* Drink small title */
+
+.drink-content .small-title {
+    color: #003b0b;
+}
+
+
+/* Drink heading */
+
+.drink-content h2 {
+    margin: 0 0 12px;
+
+    color: #003b0b !important;
+
+    font-size: 27px;
+    line-height: 1.15;
+
+    font-weight: 700;
+}
+
+
+/* Keep drink image positioned correctly */
+
+.drink-card > img {
+    object-position: 45% center;
+}
+
+
+/* =================================
+   BREAKFAST BANNER
+================================= */
+
+.breakfast-content {
+    padding-left: 25px;
+
+    color: #003b0b;
+}
+
+
+/* Breakfast small title */
+
+.breakfast-content .small-title {
+    color: #003b0b;
+}
+
+
+/* Breakfast heading */
+
+.breakfast-content h2 {
+    margin: 0 0 12px;
+
+    color: #003b0b !important;
+
+    font-size: 27px;
+    line-height: 1.15;
+
+    font-weight: 700;
+}
+
+
+/* =================================
+   SMALL TITLE
+================================= */
+
+.small-title {
+    margin-bottom: 7px;
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.4px;
+}
+
+
+/* =================================
+   SHOP NOW BUTTON
+================================= */
+
+.promo-btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    width: 130px;
+    height: 38px;
+
+    padding: 0 16px;
+
+    border-radius: 25px;
+
+    background: #fff;
+
+    color: #00a900;
+
+    text-decoration: none;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    transition:
+        background 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease;
+}
+
+
+/* Arrow */
+
+.promo-btn i {
+    font-size: 15px;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* Button hover */
+
+.promo-btn:hover {
+    background: #00b900;
+
+    color: #fff;
+
+    transform: translateY(-2px);
+}
+
+
+/* Arrow movement */
+
+.promo-btn:hover i {
+    transform: translateX(4px);
+}
