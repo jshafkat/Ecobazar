@@ -37,3 +37,10 @@ $(document).ready(function () {
             $('.category-button').categoryFilter();
 
         });
+
+        var endTime = new Date().getTime() + (2 * 60 * 60 * 1000); 
+    $('#countdown').countdown(endTime, function(event) {
+      $(this).html(event.strftime(
+        '<span>%D Days</span> <span>%H Hours</span> <span>%M Mins</span> <span>%S Secs</span>'
+      ));
+    });

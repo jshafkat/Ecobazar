@@ -1434,3 +1434,33 @@ header .second_part select {
 .promo-btn:hover i {
     transform: translateX(4px);
 }
+/* =================================
+   countdown timer
+================================= */
+
+.deal-banner {
+  background: linear-gradient(135deg, #f0fff4, #e6ffe6);
+  border-radius: 10px;
+}
+
+.deal-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.deal-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.countdown-timer span {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 10px 15px;
+  background: #2e7d32;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
