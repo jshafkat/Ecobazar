@@ -111,3 +111,28 @@
     .drink-content {
         padding-left: 52%;
     }
+
+    .featured-products {
+        padding: 25px 15px;
+    }
+
+
+    .featured-heading h2 {
+        font-size: 21px;
+    }
+
+
+    .featured-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .featured-card {
+        height: 210px;
+    }
+
+
+    .product-image {
+        height: 155px;
+    }
+

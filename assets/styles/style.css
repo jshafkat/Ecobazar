@@ -1464,3 +1464,343 @@ header .second_part select {
   border-radius: 5px;
   font-weight: bold;
 }
+
+/* =========================
+   FEATURED PRODUCTS
+========================= */
+
+.featured-products {
+    padding: 30px 0;
+    background: #fff;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.featured-heading {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.featured-heading h2 {
+    margin: 0;
+
+    color: #063d0e;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* =========================
+   PRODUCT ROW
+========================= */
+
+.featured-row {
+    border: 1px solid #e5e9e6;
+}
+
+
+/* Remove Bootstrap gutter */
+
+.featured-row > .col {
+    padding: 0;
+}
+
+
+/* =========================
+   PRODUCT CARD
+========================= */
+
+.featured-card {
+    position: relative;
+
+    height: 194px;
+
+    background: #fff;
+
+    border-right: 1px solid #e5e9e6;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Last card */
+
+.featured-row > .col:last-child .featured-card {
+    border-right: none;
+}
+
+
+/* =========================
+   ACTIVE CARD
+========================= */
+
+.active-card {
+    border: 1px solid #00b51a;
+
+    z-index: 2;
+}
+
+
+/* =========================
+   SALE BADGE
+========================= */
+
+.sale-badge {
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+
+    z-index: 5;
+
+    padding: 4px 6px;
+
+    background: #f04d4d;
+
+    color: #fff;
+
+    border-radius: 2px;
+
+    font-size: 7px;
+    font-weight: 500;
+}
+
+
+/* =========================
+   PRODUCT IMAGE
+========================= */
+
+.product-image {
+    width: 100%;
+    height: 145px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
+
+    transition: transform 0.4s ease;
+}
+
+
+/* Image hover */
+
+.featured-card:hover .product-image img {
+    transform: scale(1.06);
+}
+
+
+/* =========================
+   PRODUCT INFO
+========================= */
+
+.product-info {
+    padding: 0 8px;
+}
+
+
+.product-info h3 {
+    margin: 0 0 3px;
+
+    color: #4c514e;
+
+    font-size: 9px;
+    font-weight: 400;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* =========================
+   PRICE
+========================= */
+
+.price {
+    color: #111;
+
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+.price del {
+    margin-left: 3px;
+
+    color: #999;
+
+    font-size: 7px;
+
+    font-weight: 400;
+}
+
+
+/* =========================
+   BOTTOM
+========================= */
+
+.product-bottom {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 4px;
+}
+
+
+/* =========================
+   RATING
+========================= */
+
+.rating {
+    display: flex;
+
+    gap: 1px;
+}
+
+
+.rating span {
+    color: #ff8500;
+
+    font-size: 9px;
+}
+
+
+.rating .empty {
+    color: #c7cdca;
+}
+
+
+/* =========================
+   CART BUTTON
+========================= */
+
+.cart-btn {
+    width: 26px;
+    height: 26px;
+
+    padding: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #e8f0eb;
+
+    color: #283d30;
+
+    font-size: 12px;
+
+    transition: all 0.3s ease;
+}
+
+
+.cart-btn:hover {
+    background: #00b51a;
+
+    color: #fff;
+
+    transform: scale(1.08);
+}
+
+
+/* Active cart */
+
+.active-cart {
+    background: #00b51a;
+
+    color: #fff;
+}
+
+
+/* =========================
+   WISHLIST / VIEW BUTTONS
+========================= */
+
+.wishlist-btn,
+.view-btn {
+    position: absolute;
+
+    right: 8px;
+
+    z-index: 10;
+
+    width: 24px;
+    height: 24px;
+
+    padding: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #e2e7e3;
+
+    border-radius: 50%;
+
+    background: #fff;
+
+    color: #263c2c;
+
+    font-size: 11px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+
+.wishlist-btn {
+    top: 10px;
+}
+
+
+.view-btn {
+    top: 40px;
+}
+
+
+.wishlist-btn:hover,
+.view-btn:hover {
+    background: #00b51a;
+
+    border-color: #00b51a;
+
+    color: #fff;
+
+    transform: scale(1.08);
+}
+
+
+/* =========================
+   CARD HOVER
+========================= */
+
+.featured-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    z-index: 3;
+}
