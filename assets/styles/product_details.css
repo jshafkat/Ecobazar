@@ -989,7 +989,7 @@ a {
 
     display: block;
 
-    object-fit: cover;
+    object-fit:contain;
 }
 
 

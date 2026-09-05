@@ -18,9 +18,9 @@ $(document).ready(function () {
 
         arrows: true,
 
-        prevArrow: $('.slider-prev'),
+        prevArrow: $('.slider-arrow slider-prev'),
 
-        nextArrow: $('.slider-next'),
+        nextArrow: $('.slider-slider-arrow slider-next'),
 
         focusOnSelect: true,
 
@@ -125,5 +125,7 @@ $(document).ready(function () {
         }
 
     });
+    //* ZOOM EFFECT 
+ $(".example").imagezoomsl();
 
 });
