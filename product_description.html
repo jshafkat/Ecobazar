@@ -504,168 +504,408 @@
 
 </section>
 
+<!-- =========================================
+     PRODUCT INFORMATION TABS
+========================================= -->
 
-
-<!-- ==================================================
-     PRODUCT TABS
-================================================== -->
-
-<section class="product-tabs">
+<section class="product-info-tabs">
 
     <div class="container">
 
-        <ul class="nav justify-content-center">
+        <!-- TAB NAVIGATION -->
+        <ul class="nav product-tabs" id="productTab" role="tablist">
 
-            <li class="nav-item">
-                <a class="nav-link active" href="#">
+            <!-- Description -->
+            <li class="nav-item" role="presentation">
+                <button
+                    class="nav-link active"
+                    id="description-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#description"
+                    type="button"
+                    role="tab"
+                    aria-controls="description"
+                    aria-selected="true">
                     Descriptions
-                </a>
+                </button>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">
+            <!-- Additional Information -->
+            <li class="nav-item" role="presentation">
+                <button
+                    class="nav-link"
+                    id="information-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#information"
+                    type="button"
+                    role="tab"
+                    aria-controls="information"
+                    aria-selected="false">
                     Additional Information
-                </a>
+                </button>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">
+            <!-- Customer Feedback -->
+            <li class="nav-item" role="presentation">
+                <button
+                    class="nav-link"
+                    id="feedback-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#feedback"
+                    type="button"
+                    role="tab"
+                    aria-controls="feedback"
+                    aria-selected="false">
                     Customer Feedback
-                </a>
+                </button>
             </li>
 
         </ul>
 
-    </div>
 
-</section>
-
-
-
-<!-- ==================================================
-     DESCRIPTION
-================================================== -->
-
-<section class="description-section">
-
-    <div class="container">
-
-        <div class="row g-5">
+        <!-- TAB CONTENT -->
+        <div class="tab-content" id="productTabContent">
 
 
-            <!-- Text -->
+            <!-- =================================
+                 DESCRIPTION
+            ================================== -->
 
-            <div class="col-lg-6">
+            <div
+                class="tab-pane fade show active"
+                id="description"
+                role="tabpanel"
+                aria-labelledby="description-tab">
 
-                <div class="description-text">
+                <div class="description-content">
 
-                    <p>
-                        Sed commodo aliquam dui ac porta. Fusce ipsum felis,
-                        imperdiet ut posuere ac, viverra at mauris. Maecenas
-                        ante tortor, accumsan quis justo a, facilisis lectus.
-                    </p>
+                    <div class="row">
 
-                    <p>
-                        Nulla mauris tellus, feugiat quis pharetra sed,
-                        faucibus vel nisl. Nunc eget mi ac eros tempor
-                        tincidunt eget nec mi.
-                    </p>
+                        <div class="col-lg-7">
 
+                            <h5>100% Fresh & Organic Vegetables</h5>
 
-                    <ul>
+                            <p>
+                                Our vegetables are carefully selected to ensure
+                                freshness, quality and great taste. We work with
+                                trusted farmers to provide fresh organic
+                                vegetables directly to our customers.
+                            </p>
 
-                        <li>
-                            <i class="bi bi-check-circle-fill"></i>
-                            100 g of fresh leaves provides.
-                        </li>
+                            <p>
+                                Chinese cabbage is a nutritious vegetable that
+                                can be used in salads, soups, stir-fries and
+                                many other delicious recipes.
+                            </p>
 
-                        <li>
-                            <i class="bi bi-check-circle-fill"></i>
-                            Aliquam ac est at augue volutpat elementum.
-                        </li>
+                            <ul class="description-list">
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    100% Fresh product
+                                </li>
 
-                        <li>
-                            <i class="bi bi-check-circle-fill"></i>
-                            Quisque nec enim eget sapien molestie.
-                        </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    100% Organic
+                                </li>
 
-                        <li>
-                            <i class="bi bi-check-circle-fill"></i>
-                            Proin convallis odio volutpat finibus posuere.
-                        </li>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Carefully selected
+                                </li>
 
-                    </ul>
+                                <li>
+                                    <i class="fa-solid fa-check"></i>
+                                    Freshly delivered
+                                </li>
+                            </ul>
 
+                        </div>
 
-                    <p>
-                        Cras et diam maximus, accumsan sapien et,
-                        sollicitudin velit. Nulla blandit eros non turpis
-                        lobortis iaculis ut massa.
-                    </p>
+                    </div>
 
                 </div>
 
             </div>
 
 
+            <!-- =================================
+                 ADDITIONAL INFORMATION
+            ================================== -->
 
-            <!-- Video -->
+            <div
+                class="tab-pane fade"
+                id="information"
+                role="tabpanel"
+                aria-labelledby="information-tab">
 
-            <div class="col-lg-6">
+                <div class="additional-information">
 
-                <div class="description-right">
+                    <div class="row">
 
+                        <!-- Information -->
+                        <div class="col-lg-7">
 
-                    <div class="video-card">
+                            <div class="product-information">
 
-                        <img 
-                            src="./assets/images/Video.png"
-                            alt="Product video">
+                                <div class="info-row">
+                                    <span>Weight:</span>
+                                    <span>03</span>
+                                </div>
 
-                        
+                                <div class="info-row">
+                                    <span>Color:</span>
+                                    <span>Green</span>
+                                </div>
 
-                    </div>
+                                <div class="info-row">
+                                    <span>Type:</span>
+                                    <span>Organic</span>
+                                </div>
 
+                                <div class="info-row">
+                                    <span>Category:</span>
+                                    <span>Vegetables</span>
+                                </div>
 
+                                <div class="info-row">
+                                    <span>Stock Status:</span>
+                                    <span>Available (5,413)</span>
+                                </div>
 
-                    <!-- Features -->
+                                <div class="info-row tags-row">
+                                    <span>Tags:</span>
 
-                    <div class="feature-boxes">
-
-                        <div class="feature-box">
-
-                            <i class="bi bi-bag-check"></i>
-
-                            <div>
-
-                                <strong>64% Discount</strong>
-
-                                <small>
-                                    Save your 64% money with us
-                                </small>
+                                    <span>
+                                        Vegetables,
+                                        Healthy,
+                                        <u>Chinese</u>,
+                                        Cabbage,
+                                        Green Cabbage
+                                    </span>
+                                </div>
 
                             </div>
 
                         </div>
 
 
-                        <div class="feature-box">
+                        <!-- Video -->
+                        <div class="col-lg-5">
 
-                            <i class="bi bi-leaf"></i>
+                            <div class="product-video">
 
-                            <div>
+                                <img
+                                    src="./assets/images/product-video.jpg"
+                                    alt="Product video">
 
-                                <strong>100% Organic</strong>
+                                <button class="video-button">
+                                    <i class="fa-solid fa-play"></i>
+                                </button>
 
-                                <small>
-                                    100% Organic Vegetables
-                                </small>
+                            </div>
+
+
+                            <!-- Features -->
+                            <div class="product-features">
+
+                                <div class="feature">
+
+                                    <i class="fa-solid fa-percent"></i>
+
+                                    <div>
+                                        <strong>64% Discount</strong>
+                                        <span>
+                                            Save your 64% money with us
+                                        </span>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="feature">
+
+                                    <i class="fa-solid fa-leaf"></i>
+
+                                    <div>
+                                        <strong>100% Organic</strong>
+                                        <span>
+                                            100% Organic Vegetables
+                                        </span>
+                                    </div>
+
+                                </div>
 
                             </div>
 
                         </div>
 
                     </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================
+                 CUSTOMER FEEDBACK
+            ================================== -->
+
+            <div
+                class="tab-pane fade"
+                id="feedback"
+                role="tabpanel"
+                aria-labelledby="feedback-tab">
+
+                <div class="customer-feedback">
+
+
+                    <!-- REVIEW 1 -->
+                    <div class="review">
+
+                        <div class="review-top">
+
+                            <div class="review-user">
+
+                                <img
+                                    src="./assets/images/review-1.jpg"
+                                    alt="Kristin Watson">
+
+                                <div>
+                                    <h6>Kristin Watson</h6>
+
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <span class="review-date">
+                                2 min ago
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Duis at ullamcorper nulla, eu dictum eros.
+                        </p>
+
+                    </div>
+
+
+                    <!-- REVIEW 2 -->
+                    <div class="review">
+
+                        <div class="review-top">
+
+                            <div class="review-user">
+
+                                <div class="review-placeholder">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+
+                                <div>
+                                    <h6>Jane Cooper</h6>
+
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <span class="review-date">
+                                30 Apr, 2021
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Keep the soil evenly moist for the healthiest
+                            growth. If the sun gets too hot, Chinese cabbage
+                            tends to "bolt" or go to seed; in long periods
+                            of heat, some kind of shade may be helpful.
+                            Watch out for snails, as they will harm the plants.
+                        </p>
+
+                    </div>
+
+
+                    <!-- REVIEW 3 -->
+                    <div class="review">
+
+                        <div class="review-top">
+
+                            <div class="review-user">
+
+                                <img
+                                    src="./assets/images/review-3.jpg"
+                                    alt="Jacob Jones">
+
+                                <div>
+                                    <h6>Jacob Jones</h6>
+
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <span class="review-date">
+                                2 min ago
+                            </span>
+
+                        </div>
+
+                        <p>
+                            Vivamus eget euismod magna. Nam sed lacinia nibh,
+                            et lacinia lacus.
+                        </p>
+
+                    </div>
+
+
+                    <!-- REVIEW 4 -->
+                    <div class="review">
+
+                        <div class="review-top">
+
+                            <div class="review-user">
+
+                                <img
+                                    src="./assets/images/review-4.jpg"
+                                    alt="Ralph Edwards">
+
+                                <div>
+                                    <h6>Ralph Edwards</h6>
+
+                                    <div class="stars">
+                                        ★★★★★
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <span class="review-date">
+                                2 min ago
+                            </span>
+
+                        </div>
+
+                        <p>
+                            200+ Canton Pak Choi Bok Choy Chinese Cabbage
+                            Seeds Heirloom Non-GMO Productive Brassica rapa VAR.
+                            chinensis, a.k.a. Canton’s Choice, Bok Choi, from USA
+                        </p>
+
+                    </div>
+
+
+                    <button class="load-more">
+                        Load More
+                    </button>
 
                 </div>
 
@@ -676,6 +916,8 @@
     </div>
 
 </section>
+
+
 
 
   <script src="./assets/js/jquery-3.7.1.min.js"></script>
