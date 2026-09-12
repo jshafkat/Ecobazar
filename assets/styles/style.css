@@ -2129,3 +2129,723 @@ header .second_part select {
 .news-content a:hover {
     color: #075f16;
 }
+
+/* =========================================
+   NEWSLETTER SECTION
+========================================= */
+
+.newsletter-section {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 27px 0 29px;
+}
+
+.newsletter-container {
+    max-width: 850px;
+}
+
+
+
+/* Newsletter text */
+
+.newsletter-content h3 {
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.newsletter-content p {
+    max-width: 300px;
+    color: #999999;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+
+
+/* Newsletter right side */
+
+.newsletter-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 26px;
+}
+
+
+
+/* Newsletter form */
+
+.newsletter-form {
+    width: 358px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+
+    overflow: hidden;
+}
+
+.newsletter-input {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+
+    padding: 0 15px;
+
+    border: none;
+    outline: none;
+
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+.newsletter-input::placeholder {
+    color: #999999;
+}
+
+
+
+/* Subscribe button */
+
+.subscribe-btn {
+    width: 108px;
+    height: 36px;
+
+    border: none;
+    border-radius: 30px;
+
+    background: #00b207;
+    color: #ffffff;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background: #008f06;
+}
+
+
+
+/* =========================================
+   SOCIAL ICONS
+========================================= */
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.social-icons a {
+    width: 16px;
+    height: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #555555;
+
+    font-size: 12px;
+
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #00b207;
+}
+
+
+
+/* Facebook circle */
+
+.social-icons .facebook {
+    width: 27px;
+    height: 27px;
+
+    border-radius: 50%;
+
+    background: #00b207;
+    color: #ffffff;
+
+    font-size: 13px;
+}
+
+.social-icons .facebook:hover {
+    background: #008f06;
+    color: #ffffff;
+}
+
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.main-footer {
+    width: 100%;
+    background: #191919;
+    color: #ffffff;
+}
+
+.footer-container {
+    max-width: 850px;
+    padding-top: 40px;
+}
+
+
+
+/* =========================================
+   COMPANY
+========================================= */
+
+.footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    margin-bottom: 10px;
+
+    color: #ffffff;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-logo i {
+    color: #00b207;
+    font-size: 22px;
+}
+
+.footer-logo:hover {
+    color: #ffffff;
+}
+
+
+
+.company-description {
+    max-width: 210px;
+
+    color: #777777;
+
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+
+    margin-bottom: 14px;
+}
+
+
+
+/* Contact information */
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contact span {
+    color: #777777;
+    font-size: 10px;
+}
+
+.footer-contact a {
+    position: relative;
+
+    color: #ffffff;
+
+    font-size: 10px;
+    font-weight: 400;
+
+    padding-bottom: 5px;
+}
+
+.footer-contact a::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background: #00b207;
+}
+
+
+
+/* =========================================
+   FOOTER COLUMNS
+========================================= */
+
+.footer-column {
+    padding-left: 10px;
+}
+
+.footer-column h4 {
+    color: #ffffff;
+
+    font-size: 11px;
+    font-weight: 500;
+
+    margin-bottom: 14px;
+}
+
+.footer-column ul li {
+    margin-bottom: 9px;
+}
+
+.footer-column ul li a {
+    color: #777777;
+
+    font-size: 9px;
+    font-weight: 300;
+
+    transition: 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #00b207;
+}
+
+
+
+/* =========================================
+   FOOTER BOTTOM
+========================================= */
+
+.footer-bottom {
+    min-height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 30px;
+
+    border-top: 1px solid #292929;
+}
+
+.footer-bottom p {
+    color: #666666;
+
+    font-size: 9px;
+    font-weight: 300;
+
+    margin: 0;
+}
+
+
+
+/* =========================================
+   PAYMENT METHODS
+========================================= */
+
+.payment-methods {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.payment {
+    min-width: 29px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 3px;
+
+    color: #ffffff;
+
+    font-size: 7px;
+    font-weight: 600;
+}
+
+
+
+/* PayPal */
+
+.payment.paypal {
+    border: 1px solid #444444;
+    color: #ffffff;
+}
+
+
+
+/* Visa */
+
+.payment.visa {
+    border: 1px solid #444444;
+    font-style: italic;
+}
+
+
+
+/* Discover */
+
+.payment.discover {
+    position: relative;
+
+    border: 1px solid #444444;
+
+    font-size: 5px;
+}
+
+.payment.discover::after {
+    content: "";
+
+    position: absolute;
+
+    bottom: 1px;
+    right: 2px;
+
+    width: 12px;
+    height: 3px;
+
+    background: #f97316;
+}
+
+
+
+/* Mastercard */
+
+.payment.mastercard {
+    border: 1px solid #444444;
+    gap: 0;
+}
+
+.payment.mastercard i {
+    font-size: 10px;
+}
+
+.payment.mastercard i:first-child {
+    color: #ff3b30;
+    margin-right: -3px;
+}
+
+.payment.mastercard i:last-child {
+    color: #ffb000;
+}
+
+
+
+/* Secure Payment */
+
+.payment.secure {
+    width: 43px;
+
+    line-height: 1.1;
+
+    border: 1px solid #444444;
+
+    font-size: 5px;
+    text-align: center;
+}
+
+.payment.secure i {
+    font-size: 7px;
+    margin-right: 2px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .search-box {
+        width: 250px;
+    }
+
+
+    .product-gallery {
+        height: 350px;
+    }
+
+
+    .main-product-image {
+        height: 350px;
+    }
+
+
+    .thumbnail-wrapper {
+        height: 350px;
+    }
+
+
+    .main-product-image img {
+        max-width: 400px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .top-bar {
+        display: none;
+    }
+
+
+    .main-header,
+    .header-inner {
+        height: auto;
+
+        padding: 10px 0;
+    }
+
+
+    .header-inner {
+        flex-wrap: wrap;
+
+        gap: 12px;
+    }
+
+
+    .search-box {
+        order: 3;
+
+        width: 100%;
+    }
+
+
+    .main-nav {
+        display: none;
+    }
+
+
+    .breadcrumb-banner {
+        height: 45px;
+    }
+
+
+    .breadcrumb-content {
+        height: 45px;
+    }
+
+
+    .product-gallery {
+        height: 320px;
+    }
+
+
+    .thumbnail-wrapper {
+        height: 320px;
+
+        width: 60px;
+    }
+
+
+    .main-product-image {
+        height: 320px;
+    }
+
+
+    .main-product-image img {
+        max-width: 300px;
+    }
+
+
+    .product-title-row h1 {
+        font-size: 17px;
+    }
+
+
+    .brand-social {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+    }
+    .product-info-tabs {
+        margin-top: 40px;
+    }
+
+    .product-tabs {
+        overflow-x: auto;
+        justify-content: flex-start;
+        white-space: nowrap;
+    }
+
+    .product-tabs .nav-link {
+        font-size: 12px;
+        padding: 13px 12px;
+    }
+
+    .product-info-tabs .tab-content {
+        padding-top: 25px;
+    }
+
+    .product-information {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .product-video {
+        height: 220px;
+    }
+
+    .review-date {
+        font-size: 10px;
+    }
+
+    .product-features {
+        flex-direction: column;
+    }
+
+    .feature + .feature {
+        border-left: 0;
+        border-top: 1px solid #e5e5e5;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .product-details {
+        padding-top: 10px;
+    }
+
+
+    .product-gallery {
+        height: 260px;
+    }
+
+
+    .thumbnail-wrapper {
+        height: 260px;
+
+        width: 50px;
+    }
+
+
+    .product-thumbnails {
+        width: 40px;
+    }
+
+
+    .thumbnail {
+        width: 35px !important;
+        height: 35px;
+    }
+
+
+    .main-product-image {
+        height: 260px;
+    }
+
+
+    .main-product-image img {
+        max-width: 230px;
+    }
+
+
+    .cart-row {
+        gap: 5px;
+    }
+
+
+    .quantity {
+        width: 55px;
+    }
+
+
+    .feature-boxes {
+        grid-template-columns: 1fr;
+    }
+
+
+    .feature-box + .feature-box {
+        border-left: none;
+
+        border-top: 1px solid #eee;
+    }
+
+    /* Newsletter */
+
+    .newsletter-section {
+        padding: 30px 0;
+    }
+
+    .newsletter-content {
+        text-align: center;
+    }
+
+    .newsletter-content p {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .newsletter-right {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .newsletter-form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+
+    /* Footer */
+
+    .main-footer {
+        text-align: left;
+    }
+
+    .footer-container {
+        padding-top: 35px;
+    }
+
+    .footer-company {
+        margin-bottom: 25px;
+    }
+
+    .company-description {
+        max-width: 280px;
+    }
+
+    .footer-column {
+        margin-top: 20px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 15px;
+
+        padding: 20px 0;
+    }
+
+    .payment-methods {
+        flex-wrap: wrap;
+    }
+}
