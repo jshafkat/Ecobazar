@@ -136,3 +136,70 @@
         height: 155px;
     }
 
+.testimonial-section {
+        padding-top: 15px;
+    }
+
+    .section-title h2 {
+        font-size: 20px;
+    }
+
+    .testimonial-box {
+        min-height: 115px;
+        padding: 12px 20px;
+    }
+
+    .testimonial-box p {
+        font-size: 8px;
+    }
+
+    .quote {
+        font-size: 24px;
+    }
+
+    .customer img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .customer h4 {
+        font-size: 9px;
+    }
+
+    .customer span {
+        font-size: 7px;
+    }
+
+    .video-wrapper {
+        height: 330px;
+    }
+
+    .video-content h2 {
+        font-size: 20px;
+    }
+
+    .video-small-title {
+        font-size: 8px;
+    }
+
+    .play-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .news-image {
+        height: 140px;
+    }
+
+    .news-content h3 {
+        font-size: 9px;
+    }
+
+    .news-content p {
+        font-size: 7px;
+    }
+
+    .news-content a {
+        font-size: 7px;
+    }
